@@ -12,7 +12,6 @@ Set up the server to respond to localhost:3009.
 
 // Wait for DOM to load before running script.
 window.onload = function() {
-    // 1. Without jQuery
     // Grab the content div (where the AJAX response will be displayed) and set equal to a variable.
     const content = document.getElementById("content")
     // Listen for click on the JSON Hello Button.
