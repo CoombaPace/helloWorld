@@ -21,7 +21,6 @@ window.onload = function() {
         // Standard jQuery/AJAX declaration:
         $.ajax({
           method: "GET",
-          // The path /home/ does not exist
           url: "assets/info.json"
         }).then(function(res) {
             content.innerHTML = JSON.stringify(res);
